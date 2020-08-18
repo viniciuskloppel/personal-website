@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    background-color: #FFEC43;
+    color: #252525;
+    font-family: helvetica;
+    font-size: 95%;
+    overflow-x: hidden;
+}
+html::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/annie-spratt-yI3weKNBRTc-unsplash\ 1.png);
+    opacity: 0.2;
+}
+body {
+    width: 90%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+@media (max-width: 1366px){
+h1 {
+    line-height: 1.125;
+    color: #121212;
+    font-weight: 700;
+    font-size: 3em;
+}
+h2 {
+    font-weight: 500;
+    font-size: 2.25em;
+    line-height: 1.25em;
+    color: #F44444;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+}
+@media (min-width: 1440px) {
+    h1 {
+        line-height: 1.125;
+        color: #121212;
+        font-weight: 500;
+        font-size: 3.25em;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 2.5em;
+        line-height: 1.25em;
+        color: #F44444;
+    }
+    p {
+        font-size: 1.75em;
+        line-height: 1.5em;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1920px) {
+    h1 {
+        line-height: 1.125;
+        color: #121212;
+        font-weight: 500;
+        font-size: 4em;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 3.25em;
+        line-height: 1.25em;
+        color: #F44444;
+    }
+    p {
+        font-size: 2.5em;
+        line-height: 1.5em;
+        font-weight: 500;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    /* width: 31.6666666666667%; */
+    width: 35%;
+    height: 100%;
+}
+.menu {
+    width: 26.3157894736842%;
+    height: 6.7421790722762%;
+    background-color: #252525;
+    background-image: url(../images/menu.png);
+    background-size: 16px;
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.menu p {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    margin-right: 10%;
+}
+.apresentacao {
+    height: 100%;
+    width: 89.4736842105263%;
+    /* margin-top: 12.1359223300971%; */
+    padding-top: 12.1359223300971%;
+    margin-left: 5.2631578947368%;
+}
+
+.separador {
+    background-color: #252525;
+    width: 41.1764705882353%;
+    height: 6px;
+    margin-top: 6.6666666666667%;
+}
+h2 {
+    margin-top: 6.6666666666667%;
+}
+.pitch {
+    margin-top: 4.4444444444444%;
+}
+.technologies {
+    margin-top: 8.8888888888889%;
+}
+.view-projects {
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1.75em;
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: #121212;
+    width: 15%;
+    padding:.75em .25em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+.vetor img {
+    position: absolute;
+    right: -11.1111111111111%;
+    top: 0;
+    min-height: 100vh;
+    /* max-width: 110%; */
+}
+.vetor {
+    /* border: solid black 3px; */
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 50%;
+    min-height: 100vh;
+}
