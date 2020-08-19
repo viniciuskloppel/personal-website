@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 html {
-    height: 100%;
+    min-height: 100%;
     background-color: #FFEC43;
     color: #252525;
     font-family: helvetica;
-    font-size: 95%;
+    font-size: 98%;
     overflow-x: hidden;
 }
 html::after {
@@ -16,13 +16,14 @@ html::after {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     background-image: url(../images/annie-spratt-yI3weKNBRTc-unsplash\ 1.png);
-    opacity: 0.2;
+    opacity: 0.1;
 }
 body {
     width: 90%;
-    height: 100%;
+    z-index: 2;
+    min-height: 100vh;
     position: relative;
     margin: 0 auto;
 }
@@ -118,7 +119,10 @@ a {
     height: 100%;
     width: 89.4736842105263%;
     /* margin-top: 12.1359223300971%; */
-    padding-top: 12.1359223300971%;
+    /* padding-top: 12.1359223300971%; */
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
     margin-left: 5.2631578947368%;
 }
 
@@ -150,6 +154,7 @@ h2 {
     position: absolute;
     left: 50%;
     top: 50%;
+    box-shadow: 0 2px 4px rgb(0,0,0, 0.5) ;
     transform: translate(-50%, -50%);
     z-index: 10;
 }
@@ -157,8 +162,8 @@ h2 {
     position: absolute;
     right: -11.1111111111111%;
     top: 0;
-    min-height: 100vh;
-    /* max-width: 110%; */
+    min-height: 101%;
+    /* min-width: 50%; */
 }
 .vetor {
     /* border: solid black 3px; */
@@ -166,5 +171,5 @@ h2 {
     left: 50%;
     top: 0;
     width: 50%;
-    min-height: 100vh;
+    min-height: 101%;
 }
